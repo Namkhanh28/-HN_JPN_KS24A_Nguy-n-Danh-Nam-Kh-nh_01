@@ -6,8 +6,8 @@ int main (){
 	int choice , value;  
 	do{
 	    printf("1,Moi nhap so phan tu va gia tri cho mang"\n);
-		printf("2,TÏm gia tri nho nhat va lon nhat cua mang"\n);
-		printf("3,Them mot phan tu v‡o mang"\n);
+		printf("2,T√¨m gia tri nho nhat va lon nhat cua mang"\n);
+		printf("3,Them mot phan tu v√†o mang"\n);
 		printf("4,Xoa phan tu tai mot vi tri cu the"\n);
 		printf("5,Sap xep mang theo thu tu giam dan"\n);
 		printf("6,Thoat"\n)
@@ -25,7 +25,7 @@ int main (){
      case2: // Hien thi mang
 			printf("In ra mang sau khi them moi cac phan tu: ");
 			for(int i=0; i<n;i++){
-				printf("%3d", arr[i]);
+				printf("%d", arr[i]);
 			}
 			printf("\n");
 			break;
